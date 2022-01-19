@@ -24,6 +24,10 @@ const handleUserInput = function (key) {
     break;
     case "\u0064" : connection.write("Move: right");
     break;
+    case "\u0067" : connection.write("Say: Hello Everyone");
+    break;
+    case "\u0066" : connection.write("Say: More coffee needed...");
+    break;
   }
 };
 
