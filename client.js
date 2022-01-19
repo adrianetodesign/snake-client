@@ -18,6 +18,10 @@ const connect = function () {
     conn.write("Name: ATO");
   });
 
+  // conn.on('connect', () => {
+  //   setInterval(() => {conn.write("Move: up")}, 50);
+  // });
+
   conn.on('data', (data) => {
     console.log(data);
   });
